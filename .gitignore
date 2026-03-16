@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Env
+.env
+*.env.local
+
+# Data (tracked by DVC, not git)
+data/raw/
+data/processed/
+*.jsonl
+*.csv
+
+# Models
+models/
+*.bin
+*.pt
+*.safetensors
+
+# Logs
+*.log
+wandb/
+mlruns/
+
+# Docker
+.docker/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# DVC
+/tmp
+.dvc/tmp
+
+# Test cache
+.pytest_cache/
+.coverage
+htmlcov/

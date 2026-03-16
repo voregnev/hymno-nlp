@@ -1,0 +1,41 @@
+# Core
+httpx==0.27.*
+beautifulsoup4==4.12.*
+lxml==5.*
+
+# NLP
+spacy==3.7.*
+stanza==1.9.*
+sentence-transformers==3.*
+transformers==4.44.*
+torch==2.3.*
+bertalign==1.2.*
+
+# Databases
+psycopg[binary]==3.2.*
+neo4j==5.23.*
+qdrant-client==1.11.*
+
+# ML / Tracking
+wandb==0.17.*
+prefect==3.*
+dvc[gs]==3.*
+
+# API
+fastapi==0.112.*
+uvicorn[standard]==0.30.*
+strawberry-graphql==0.235.*
+
+# LLM
+anthropic==0.34.*
+
+# Utils
+python-dotenv==1.0.*
+pydantic==2.8.*
+tqdm==4.66.*
+rich==13.*
+
+# Dev / Test
+pytest==8.*
+pytest-asyncio==0.23.*
+ruff==0.6.*
